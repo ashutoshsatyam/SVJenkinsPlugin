@@ -1,24 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Run name="Run1User10Cycle" pathfinder="false" think="100">
+<?xml version="1.0" ?>
 
-<meta><create author="jskress" buildNumber="0.0.0.0" date="10/28/2010" host="Macintosh-6.local" version="0.0"/><lastEdited author="jskress" buildNumber="0.0.0.0" date="10/28/2010" host="Macintosh-6.local" version="0.0"/></meta>
+<Run name="Run1User10Cycle" think="100" pathfinder="false" >
+
+<meta>
+   <create version="0.0" buildNumber="0.0.0.0" author="jskress" date="10/28/2010" host="Macintosh-6.local" />
+   <lastEdited version="10.3.0" buildNumber="10.3.0.297" author="admin" date="04/08/2019" host="satas01-Win10VM" />
+</meta>
 
 <id>66383534313961632D383364332D3432</id>
 <Documentation>This staging document runs a test with a single user one time with 100% think time scale.</Documentation>
 <IsInProject>true</IsInProject>
 <paceTime>0</paceTime>
 <paceTrans>0</paceTrans>
-<EventConsumer filter="0,1,2,3,6,7,8,9,10,14,15,16,17,18,19,21,22,23,24,25,26,27,28,30,31,32,33,37,38,39,40,42,43,44,45,46,47,48,49,51,55,58,0" type="com.itko.lisa.report.DefaultReportToDataModel">
+<EventConsumer type="com.itko.lisa.report.DefaultReportToDataModel" filter="0,1,2,3,6,7,8,9,10,14,15,17,18,19,21,22,23,24,25,26,27,28,30,31,32,37,38,39,40,42,43,44,45,46,47,48,49,51,61,62,63,64,65,66,67,76,79,80,81,82,83,84,85,86,0" >
 <params>
     <watchAllEvents>false</watchAllEvents>
     <watchProps>false</watchProps>
     <watchMetrics>true</watchMetrics>
     <watchReqResp>true</watchReqResp>
+    <maxErrors>100</maxErrors>
+    <includeWarnings>true</includeWarnings>
 </params>
 </EventConsumer>
 <LoadPattern>
 <type>com.itko.lisa.coordinator.runpatterns.RunNTimesPattern</type>
-<cycles>1</cycles>
+<cycles>10</cycles>
 <runfor>0</runfor>
 <ssinstances>1</ssinstances>
 </LoadPattern>
@@ -27,9 +33,10 @@
 <Simulator>
 <name>auto</name>
 <percent>100</percent>
+<shortname>auto</shortname>
 </Simulator>
 </Distribution>
-<Metrics>
+<Metrics >
 <SampleRate>1</SampleRate>
 <IntervalRate>10</IntervalRate>
 <Metric type="com.itko.lisa.stats.TestEventCollector">
