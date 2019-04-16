@@ -4,7 +4,7 @@
 
 <meta>
    <create version="9.1.0" buildNumber="9.1.0.261" author="admin" date="01/08/2016" host="admin" />
-   <lastEdited version="10.3.0" buildNumber="10.3.0.297" author="admin" date="04/07/2019" host="satas01-Win10VM" />
+   <lastEdited version="10.3.0" buildNumber="10.3.0.297" author="admin" date="04/15/2019" host="C02VT0RPHTDF" />
 </meta>
 
 <id>97686DA1B61511E5A26B406C8F055978</id>
@@ -51,7 +51,7 @@
         <ignoreArrayOrder>true</ignoreArrayOrder>
 </CheckResult>
 
-<url>http://{{WSSERVER}}:{{CARSWSPORT}}/inventory/cars</url>
+<url>http://{{WSSERVER}}:8000/inventory/cars</url>
 <content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
@@ -91,7 +91,6 @@
 </CheckResult>
 
 <url>http://{{WSSERVER}}:{{CARSWSPORT}}/inventory/carMake/index.json</url>
-<content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
       <header field="Host" value="10.139.4.217:7001" />
@@ -130,7 +129,6 @@
 </CheckResult>
 
 <url>http://{{WSSERVER}}:{{CARSWSPORT}}/inventory/carDealer/index</url>
-<content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
       <header field="Host" value="10.139.4.217:7001" />
@@ -169,7 +167,6 @@
 </CheckResult>
 
 <url>http://{{WSSERVER}}:{{CARSWSPORT}}/inventory/carInventory/2T1KR32E37C639014</url>
-<content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
       <header field="Host" value="10.139.4.217:7001" />
@@ -208,7 +205,6 @@
 </CheckResult>
 
 <url>http://{{WSSERVER}}:{{CARSWSPORT}}/inventory/carMake/1/models.json</url>
-<content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
       <header field="Host" value="10.139.4.217:7001" />
@@ -289,7 +285,6 @@
 </CheckResult>
 
 <url>http://{{WSSERVER}}:{{CARSWSPORT}}/loan/lisa.simpson</url>
-<content-type></content-type>
 <data-type>text</data-type>
       <header field="User-Agent" value="Java/1.8.0_60" />
       <header field="Host" value="10.139.4.217:7001" />
@@ -300,10 +295,10 @@
     </Node>
 
 
-    <Node name="end" log=""
-          type="com.itko.lisa.test.NormalEnd" 
+    <Node name="abort" log="The test was aborted"
+          type="com.itko.lisa.test.AbortStep" 
           version="1" 
-          uid="97686DA9B61511E5A26B406C8F055978" 
+          uid="97686DABB61511E5A26B406C8F055978" 
           think="0h" 
           useFilters="true" 
           quiet="true" 
@@ -324,10 +319,10 @@
     </Node>
 
 
-    <Node name="abort" log="The test was aborted"
-          type="com.itko.lisa.test.AbortStep" 
+    <Node name="end" log=""
+          type="com.itko.lisa.test.NormalEnd" 
           version="1" 
-          uid="97686DABB61511E5A26B406C8F055978" 
+          uid="97686DA9B61511E5A26B406C8F055978" 
           think="0h" 
           useFilters="true" 
           quiet="true" 

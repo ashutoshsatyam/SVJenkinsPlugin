@@ -67,7 +67,7 @@
 </CheckResult>
 
 <wsdl></wsdl>
-<endpoint>http://{{WSSERVER}}:8000/itkoExamples/EJB3UserControlBean</endpoint>
+<endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/EJB3UserControlBean</endpoint>
 <targetNamespace></targetNamespace>
 <service></service>
 <port></port>
@@ -81,9 +81,9 @@
 <soapAction></soapAction>
 <sslInfo>
 <ssl-keystore-file></ssl-keystore-file>
-<ssl-keystore-password-enc>l8187ac3d626a65bdfe2cadb425fbaddabaf3b6e8615d9d3da10d37b59a3e3ba1</ssl-keystore-password-enc>
+<ssl-keystore-password-enc>l23dfa9dc271852af5621fffab8dbdf78650eec930305ca0e3b7b27f3aded70e0</ssl-keystore-password-enc>
 <ssl-alias></ssl-alias>
-<ssl-key-password-enc>l573ab4be5f80a641c32702e1ee53c0aabb440b065c3c18d23994b03a21602c06</ssl-key-password-enc>
+<ssl-key-password-enc>l7070ddd885c0f762d3560f5de8bbaf3e04efc902707d4d6852fcb3adc7ebb3fb</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -198,22 +198,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/TokenBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PGdldE5ld1Rva2VuIHhtbG5zPSJodHRwOi8vZWpiMy5leGFtcGxlcy5pdGtvLmNvbS8iPjx1c2VybmFtZSB4bWxucz0iIj5saXNhX3NpbXBzb248L3VzZXJuYW1lPjxwYXNzd29yZCB4bWxucz0iIj5nb2xpc2E8L3Bhc3N3b3JkPjwvZ2V0TmV3VG9rZW4+PC9zb2FwZW52OkJvZHk+PC9zb2FwZW52OkVudmVsb3BlPg==</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>l19d1a3cbe7bb69bba82c64c393e946ffbb75f59762660eb2d9e668cade2802b0</ssl-keystore-password-enc>
-<ssl-key-password-enc>leca044311b235ef5a233f5030763ef9c41e37436ae828a3431ede04037fe260d</ssl-key-password-enc>
+<ssl-keystore-password-enc>l4e5b1012d10c69ac0a4423b018750a0d1360f2c9c5190698e3e117f240586fe1</ssl-keystore-password-enc>
+<ssl-key-password-enc>l6dbcce78dddea7956c04ebe3ca12f6741cf3c6881ac3a3d1761cc2e98f710edb</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -328,22 +322,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/EJB3AccountControlBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PGdldEFjY291bnQgeG1sbnM9Imh0dHA6Ly9lamIzLmV4YW1wbGVzLml0a28uY29tLyI+PGFjY291bnRJZCB4bWxucz0iIj4xNTEzNDc2OTMyPC9hY2NvdW50SWQ+PC9nZXRBY2NvdW50Pjwvc29hcGVudjpCb2R5Pjwvc29hcGVudjpFbnZlbG9wZT4=</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>le17179694c8c6a162122d578b02d0929416714f102abbb9aabd9b3f52f69a12a</ssl-keystore-password-enc>
-<ssl-key-password-enc>l1e63eaccd46eed8447f92dd99d01843db1a80c93609550d76aa9ba332f0950c2</ssl-key-password-enc>
+<ssl-keystore-password-enc>lf9af20fd697f8240ca1dc793034d223910eddf5312909e6af5a041e6d57e4289</ssl-keystore-password-enc>
+<ssl-key-password-enc>l6047b6a8a54c857111ae7cf06217ab6bdf3d0f65c9f7b68ec7accd0b7e242015</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -462,22 +450,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/EJB3AccountControlBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PGRlcG9zaXRNb25leSB4bWxucz0iaHR0cDovL2VqYjMuZXhhbXBsZXMuaXRrby5jb20vIj48YWNjb3VudElkIHhtbG5zPSIiPjE1MTM0NzY5MzI8L2FjY291bnRJZD48YW1vdW50IHhtbG5zPSIiPjIwLjAwPC9hbW91bnQ+PGRlc2MgeG1sbnM9IiI+QVRNIERlcG9zaXQ8L2Rlc2M+PC9kZXBvc2l0TW9uZXk+PC9zb2FwZW52OkJvZHk+PC9zb2FwZW52OkVudmVsb3BlPg==</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>lbf037f36b0a2ba8eab34f5bf5d3e6ca02dd6892aa20ee593f1b18ef35d6c1a0c</ssl-keystore-password-enc>
-<ssl-key-password-enc>l1200e6240e07192cde32f9d032c04891a4bcde29914ca34b631fcfc29c4f6fde</ssl-key-password-enc>
+<ssl-keystore-password-enc>la03828fbec07404b72ec96e00944d1942326fdd746ae425af511c003c8a454d3</ssl-keystore-password-enc>
+<ssl-key-password-enc>l5fb9e689bcb7bb8a3d137b02452fc17b15fa7e01dd1c368d9493f29b5ba67837</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -596,22 +578,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/EJB3AccountControlBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PHdpdGhkcmF3TW9uZXkgeG1sbnM9Imh0dHA6Ly9lamIzLmV4YW1wbGVzLml0a28uY29tLyI+PGFjY291bnRJZCB4bWxucz0iIj4xNTEzNDc2OTMyPC9hY2NvdW50SWQ+PGFtb3VudCB4bWxucz0iIj4xMC4wMDwvYW1vdW50PjxkZXNjIHhtbG5zPSIiPkFUTSBXaXRoZHJhd2FsPC9kZXNjPjwvd2l0aGRyYXdNb25leT48L3NvYXBlbnY6Qm9keT48L3NvYXBlbnY6RW52ZWxvcGU+</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>lb6f229ad9dadeb89f58f1805b720af334e4194db506ed8d731d28404dacf5b6b</ssl-keystore-password-enc>
-<ssl-key-password-enc>l42d24b8437ea96afd8b73e1845142a342aee21dfe3beb453eaac615cd2f4666f</ssl-key-password-enc>
+<ssl-keystore-password-enc>l2874ab2358191b1e1c62ead4e7f6a06af40f48436b57b28a3ed5b70d98a9df4a</ssl-keystore-password-enc>
+<ssl-key-password-enc>l1572f0e17df3b7a99fd8413cc055beb386ace62bb8525bb0f206479681626f7c</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -730,22 +706,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/EJB3AccountControlBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PGdldFRyYW5zYWN0aW9ucyB4bWxucz0iaHR0cDovL2VqYjMuZXhhbXBsZXMuaXRrby5jb20vIj48YWNjb3VudElkIHhtbG5zPSIiPjE1MTM0NzY5MzI8L2FjY291bnRJZD48ZnJvbSB4c2k6dHlwZT0ieHNkOmRhdGVUaW1lIiB4bWxucz0iIj4yMDE2LTA3LTE0VDE0OjE0OjUxLjQ0OFo8L2Zyb20+PHRvIHhzaTp0eXBlPSJ4c2Q6ZGF0ZVRpbWUiIHhtbG5zPSIiPjIwMTYtMDctMjFUMTQ6MTQ6NTEuNDQ4WjwvdG8+PC9nZXRUcmFuc2FjdGlvbnM+PC9zb2FwZW52OkJvZHk+PC9zb2FwZW52OkVudmVsb3BlPg==</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>lf5c172437dc57809c39bff7b86de8fe2732513951298972117b49dda05810822</ssl-keystore-password-enc>
-<ssl-key-password-enc>l1d031bc304b0d7f259a3123eb09053d4ae266312cd07eede71a955d53ceb58ad</ssl-key-password-enc>
+<ssl-keystore-password-enc>lef1f0c56f1f6294b7ec6dec8bf9ad750d97f52b8ec02f7b79b43c15ed0c20b2a</ssl-keystore-password-enc>
+<ssl-key-password-enc>l010447525df9b72c3de6bd85118d04c5874497e66440f5d164ea92877d493184</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -864,22 +834,16 @@
 <xmlDiffOptionsProperty></xmlDiffOptionsProperty>
 </CheckResult>
 
-<wsdl></wsdl>
 <endpoint>http://{{WSSERVER}}:{{BANKWSPORT}}/itkoExamples/TokenBean</endpoint>
-<targetNamespace></targetNamespace>
-<service></service>
-<port></port>
-<operation></operation>
 <onError>abort</onError>
 <maintainSession>true</maintainSession>
 <clearSession>false</clearSession>
 <request itko_enc="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxzb2FwZW52OkJvZHk+PGRlbGV0ZVRva2VuIHhtbG5zPSJodHRwOi8vZWpiMy5leGFtcGxlcy5pdGtvLmNvbS8iPjx0b2tlbiB4bWxucz0iIj40NjdjNmZmMjoxNTYwZGNjMzhhNjotN2ZmODwvdG9rZW4+PC9kZWxldGVUb2tlbj48L3NvYXBlbnY6Qm9keT48L3NvYXBlbnY6RW52ZWxvcGU+</request>
 <style>document</style>
 <use>literal</use>
-<soapAction></soapAction>
 <sslInfo>
-<ssl-keystore-password-enc>l83c010dcdb2a340966f633a1655ee33d070ce852f8396f5e5156288a0c1df25e</ssl-keystore-password-enc>
-<ssl-key-password-enc>l4341ddab4a356cd6e12b6a500f578147542f103430e4b38d442e36bc367fa250</ssl-key-password-enc>
+<ssl-keystore-password-enc>l0f111ab0e5c39ae327ad99c4e15303d6049ae84184dff4bc8bb2207934594825</ssl-keystore-password-enc>
+<ssl-key-password-enc>l8e14f05dfaee880242ba4f70b0aa43b007685bb65b589eda87cc9c788862c6e7</ssl-key-password-enc>
 </sslInfo>
 <wsiInfo>
 <wsi-check-wsdl>false</wsi-check-wsdl>
@@ -952,10 +916,10 @@
     </Node>
 
 
-    <Node name="end" log=""
-          type="com.itko.lisa.test.NormalEnd" 
+    <Node name="abort" log="The test was aborted"
+          type="com.itko.lisa.test.AbortStep" 
           version="1" 
-          uid="CD283B9410711E9A760000C29219008" 
+          uid="CD283B7410711E9A760000C29219008" 
           think="0h" 
           useFilters="true" 
           quiet="true" 
@@ -976,10 +940,10 @@
     </Node>
 
 
-    <Node name="abort" log="The test was aborted"
-          type="com.itko.lisa.test.AbortStep" 
+    <Node name="end" log=""
+          type="com.itko.lisa.test.NormalEnd" 
           version="1" 
-          uid="CD283B7410711E9A760000C29219008" 
+          uid="CD283B9410711E9A760000C29219008" 
           think="0h" 
           useFilters="true" 
           quiet="true" 
